@@ -1,0 +1,98 @@
+body{
+    color: red;
+    font-family: arial;
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: left;
+    width: 90%;
+    background-image: url("../imgs/aoe2back.jpg");
+}
+
+header{
+    border: 2px solid #34868E;
+    background-color: black;
+    background-image: url("../imgs/aoe2.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 14px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px 2px 3px black;
+
+}
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+.iconos{
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 250px;
+    opacity: 0.8;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px 2px black;
+    -webkit-transition:-webkit-transform 0.5s ease-out;
+    -moz-transition:-moz-transform 0.5s ease-out;
+    -o-transition:-o-transform 0.5s ease-out;
+    -ms-transition:-ms-transform 0.5s ease-out;
+    transition:transform 0.5s ease-out;
+}
+.iconos:hover{
+     background-color: #68C0E2;
+     opacity: 1;
+     box-shadow: 3px 3px 30px 3px white;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+footer{
+    color: white;
+    margin-top: 100px;
+}
+article>div>a>img{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 5px black;
+    opacity: 0.8;
+    -webkit-transition:-webkit-transform 0.5s ease-out;
+    -moz-transition:-moz-transform 0.5s ease-out;
+    -o-transition:-o-transform 0.5s ease-out;
+    -ms-transition:-ms-transform 0.5s ease-out;
+    transition:transform 0.5s ease-out;
+}
+h2{
+    text-align: center;
+    margin-left: 45px;
+}
+article{
+    margin-left: 50px;
+}
+article>div>a>img:hover{
+    opacity: 1;
+    box-shadow: 1px 1px 30px 2px white;
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06)
+}
+p{
+    color: aquamarine;
+}
+.forgotten{
+    text-align: center;
+}
+section > h2 >  span{
+    position: relative;
+    bottom: 35px;
+}
